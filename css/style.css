@@ -29,8 +29,9 @@ figcaption {
 }
 
 .shadow{
-  box-shadow: 0 3px;
-  /*horizontal shadow is 0. shadow will fall 3 px below box */
+  box-shadow: 0 3px 10px #333;
+  /*horizontal shadow is 0. shadow will fall 3 px below box, border radius of 10
+  color of dark grey*/
 }
 
 
