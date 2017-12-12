@@ -166,9 +166,9 @@ header{
 
 #navbar nav a{
     /*we want them to display side by side (already displays inline by default but
-     inline does not allow a width to be set, so we change to inline-block. 100/6 
+     inline does not allow a width to be set, so we change to inline-block. 100/6
      = 16.66% */
-  display: inline-block;   
+  display: inline-block;
   width: 16.666667%;
   margin: 0;
   padding: 22px 0;
@@ -178,10 +178,12 @@ header{
   border-right: 1px solid #ccc;
   text-decoration:none; /*so link isn't underlined */
   font: 1em "Trebuchet MS", Arial, Sans-serif;
-  
-  
 }
 
+#navbar nav a.selected{
+  background: #333;
+  color:white;
+}
 /*////////// LOGO //////////*/
 
 
