@@ -7,7 +7,7 @@ h3 {
   margin: 0 0 10px;
 }
 
-p { 
+p {
   font-size: 1em; /* 16px, ?pt, 100%, 1em */
   line-height: 1.5em;
 }
@@ -28,6 +28,10 @@ figcaption {
   text-shadow: 0 2px 3px #000;
 }
 
+.shadow{
+  box-shadow: 0 3px;
+  /*horizontal shadow is 0. shadow will fall 3 px below box */
+}
 
 
 /*////////// BACKGROUNDS //////////*/
@@ -159,5 +163,3 @@ section {
 }
 
 /*////////// FOOTER //////////*/
-
-
