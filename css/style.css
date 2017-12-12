@@ -66,6 +66,8 @@ background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 
 background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
 background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
 }
+
+
 /*/////// MEDIA ////////*/
 
 img, video, audio, iframe, table, form {
@@ -141,7 +143,9 @@ img, video, audio, iframe, table, form {
 }
 
 /*////////// HEADER //////////*/
-
+header{
+  margin: 0 0 30px;
+}
 
 
 /*////////// NAVBAR //////////*/
